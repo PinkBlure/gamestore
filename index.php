@@ -10,6 +10,28 @@
 
 <body>
 
+  <?php
+  if (!file_exists("./src/base/functions.php")) {
+    die("Error: Functions file not found.");
+  }
+
+  require_once "./src/base/functions.php";
+
+  enableErrorLog();
+  $conn = createConnection("localhost", "gamestore", "root", "");
+
+  if ($conn === null) {
+    echo "<div class='alert alert-danger'>Error: No se pudo establecer conexión con la base de datos.</div>";
+  }
+
+  $conn = null;
+  ?>
+ 
+  <h1>Tienda Online</h1>
+
+  <a type="button" class="btn btn-primary" href="admin.php">Administrar Tienda Online</a>
+  <a type="button" class="btn btn-primary" href="juegos.php">Ver lista de juegos</a>
+
 </body>
 
 </html>
