@@ -29,8 +29,8 @@
  
   <h1>Tienda Online</h1>
 
-  <a type="button" class="btn btn-primary" href="admin.php">Administrar Tienda Online</a>
-  <a type="button" class="btn btn-primary" href="juegos.php">Ver lista de juegos</a>
+  <a type="button" class="btn btn-primary" href="./src/admin.php">Administrar Tienda Online</a>
+  <a type="button" class="btn btn-primary" href="./src/juegos.php">Ver lista de juegos</a>
 
 </body>
 
