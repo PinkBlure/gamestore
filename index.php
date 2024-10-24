@@ -29,7 +29,7 @@
     </div>
   </nav>
 
-  <div class="container text-center my-4 flex-grow-1">
+  <main class="container text-center my-4 flex-grow-1">
     <?php
     if (!file_exists("./src/base/functions.php")) {
       die("Error: Functions file not found.");
@@ -51,7 +51,7 @@
 
     <a type="button" class="btn btn-primary" href="./src/admin.php">Administrar Tienda Online</a>
     <a type="button" class="btn btn-primary" href="./src/juegos.php">Ver lista de juegos</a>
-  </div>
+  </main>
 
   <footer class="bg-purple text-white text-center text-lg-start mt-auto" style="background-color: purple;">
     <div class="text-center p-3">
