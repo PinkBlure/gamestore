@@ -9,6 +9,7 @@
 
 <body>
   <h1>Lista de juegos</h1>
+
   <?php
   require_once "./base/functions.php";
 
@@ -22,11 +23,14 @@
   $resultado_query = $conn->query('select * from Juegos');
 
   while ($row = $resultado_query->fetch(PDO::FETCH_OBJ)) {
-    echo "<article>
+    echo "<div>
+          <article>
             {$row->ID}
             {$row->Nombre}
             {$row->Genero}
-          </article>";
+          </article>
+          <a href='detalle.php?id={$row->ID}'>Ver juego</a>
+          </div>";
   }
 
   $conn = null;
