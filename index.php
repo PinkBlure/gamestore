@@ -10,6 +10,25 @@
 
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GameStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./src/admin.php">Administrar Tienda Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./src/juegos.php">Ver lista de juegos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <?php
   if (!file_exists("./src/base/functions.php")) {
     die("Error: Functions file not found.");
@@ -31,6 +50,9 @@
 
   <a type="button" class="btn btn-primary" href="./src/admin.php">Administrar Tienda Online</a>
   <a type="button" class="btn btn-primary" href="./src/juegos.php">Ver lista de juegos</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
 </body>
 
