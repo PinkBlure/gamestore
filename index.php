@@ -19,9 +19,6 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="./src/admin.php">Administrar Tienda Online</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-white" href="./src/juegos.php">Ver lista de juegos</a>
           </li>
         </ul>
@@ -49,7 +46,6 @@
 
     <h1>Tienda Online</h1>
 
-    <a type="button" class="btn btn-primary" href="./src/admin.php">Administrar Tienda Online</a>
     <a type="button" class="btn btn-primary" href="./src/juegos.php">Ver lista de juegos</a>
   </main>
 

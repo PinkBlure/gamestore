@@ -12,17 +12,14 @@
 
   <nav class="navbar navbar-expand-lg" style="background-color: purple;">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">GameStore</a>
+      <a class="navbar-brand text-white" href="../index.php">GameStore</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="./src/admin.php">Administrar Tienda Online</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="./src/juegos.php">Ver lista de juegos</a>
+            <a class="nav-link text-white" href="./juegos.php">Ver lista de juegos</a>
           </li>
         </ul>
       </div>
